@@ -1,11 +1,11 @@
 :root {
-    --main-color: #a82d49;
-    --main-color-dark: #43121d;
+    --main-color: rgb(68, 122, 222);
+    --main-color-dark: #122143;
     --text-color: #777;
     --light-text-color: rgba(119, 119, 119, 0.3);
     --white-color: #fff;
     --black-color: #000;
-    --gradient: linear-gradient(to right, rgba(168, 45, 73, 0.5), rgba(228, 77, 38, 0.5));
+    --gradient: linear-gradient(to right, rgba(45, 86, 168, 0.5), rgba(38, 70, 228, 0.5));
     --gray-gradient: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(171, 186, 171, 0.5));
 
 
@@ -14,7 +14,7 @@
 /* animations */
 @keyframes ripple {
     0% {
-        box-shadow: 0 0 0 0 #a82d49, 0 0 0 0 #a82d49;
+        box-shadow: 0 0 0 0 #2d5aa8, 0 0 0 0 #2d66a8;
     }
 
     80% {
@@ -22,6 +22,6 @@
     }
 
     100% {
-        box-shadow: 0 0 0 20 #a82d49, 0 0 0 40 #a82d49;
+        box-shadow: 0 0 0 20 #2d52a8, 0 0 0 40 #2d42a8;
     }
 }
