@@ -1,10 +1,17 @@
 /* Page reset starts here */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/* @font-face {
+    font-family: 'david-lato';
+    src: url('./font/Lato-Bold.ttf')format('truetype'),
+    url('./font/lato-regular-webfont.woff')format('woff'),
+    url('./font/lato-regular-webfont.woff2')format('woff2');
+} */
 
 /* Page reset stops here */
 
@@ -12,7 +19,14 @@
 
 /* header {} */
 
+body {
+    font-family: 'lato', sans-serif;
+}
+.nav-mobile {
+    display: none;
+}
 .nav-desktop {
+    background: var(--white-color);
     display: flex;
     align-items: center;
 
@@ -32,20 +46,19 @@
     position: absolute;
     left: 60px;
     top: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 2px;
     width: 60px;
     height: 60px;
     background: var(--main-color);
     font-size: 30px;
     color: var(--white-color);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 
 .desktop-link-holder {
@@ -99,7 +112,7 @@ button {
 }
 .btn {
     background: var(--main-color);
-    padding: 20px 10px;
+    padding: 20px 20px;
     color: var(--white-color);
     border: none;
     border-radius: 5px;
@@ -121,18 +134,20 @@ button {
 }
 
 .btn-white{
+    color: var(--main-color-dark);
     background: var(--white-color);
-    border: 2px solid var(--main-color);
+    border: 2px solid transparent;
 }
 
 .btn-white:hover {
-    color: var(--main-dark);
+    color: var(--main-color);
     background: var(--white-color);
     border: 2px solid var(--main-color);
 }
 
 .header-banner-section {
-    padding-top: 100px;
+    padding-top: 130px;
+    padding-bottom: 30px;
     min-height: 450px;
     background: url('./img/banner.jpg');
     background-size: cover;
@@ -145,12 +160,50 @@ button {
 }
 
 .header-text-content {
-    border: 3px solid;
+    /* border: 3px solid; */
     width: 50%;
 
 }
 
 .header-icon {
     margin-left: 10px;
+}
+
+.header-text-content h1 {
+    line-height: 1.1;
+    color: var(--main-color-dark);
+    font-size: 45px;
+}
+
+.header-text-content p {
+    color: var(--text-color);
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.header-text-content button {
+    margin-right: 10px;
+}
+
+.header-counter-section {
+    color: var(--white-color);
+    display: flex;
+    background:  var(--main-color);
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.counter {
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.counter h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.counter p {
+    text-transform: uppercase;
 }
 /* Header section stops here  */

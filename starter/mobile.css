@@ -1,0 +1,39 @@
+@media screen and (max-width: 860px) {
+    .header-text-content {
+        /* border: 3px solid; */
+        min-width: 100%;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+    .nav-mobile {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding: 10px 20px;
+        background: var(--main-color);
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-logo, .hamburger {
+        color: var(--white-color);
+        font-size: 28px;
+        padding: 4px;
+    }
+    .mobile-logo {
+        border: 2px solid var(--white-color);
+        margin-right: 10px;
+    }
+    .mobile-brand {
+        display: flex;
+        align-items: center;
+    }
+
+    .brand-name {
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--white-color);
+    }
+}
