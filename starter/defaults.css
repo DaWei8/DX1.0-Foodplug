@@ -1,12 +1,14 @@
 :root {
     --main-color: rgb(68, 122, 222);
     --main-color-dark: #122143;
+    --light-grey-color: rgb(234, 238, 250);
     --text-color: rgb(120, 123, 124);
     --light-text-color: rgba(39, 46, 66, 0.85);
     --white-color: #fff;
     --black-color: #000;
-    --gradient: linear-gradient(to right, rgba(45, 86, 168, 0.5), rgba(38, 70, 228, 0.5));
-    --gray-gradient: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(171, 186, 171, 0.5));
+    --gradient: linear-gradient(to right, rgba(45, 86, 168, 0.25), rgba(38, 70, 228, 0.25));
+    --gradient-50: linear-gradient(to right, rgba(167, 192, 248, 0.5), rgba(206, 213, 245, 0.5));
+    --gray-gradient: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(224, 241, 250, 0.985));
 
 
 }
