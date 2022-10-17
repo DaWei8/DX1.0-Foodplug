@@ -7,6 +7,7 @@
     .nav-desktop {
         display: none;
     }
+
     .header-banner-section {
         padding: 150px 0 30px 0;
         background-position: center;
@@ -17,7 +18,8 @@
         background: none;
         border: 2px solid var(--main-color);
     }
-    
+
+
     .backdrop {
         background: var(--light-text-color);
         width: 100%;
@@ -135,7 +137,7 @@
         -moz-transition: all 0.7s;
         -ms-transition: all 0.7s;
         -o-transition: all 0.7s;
-}
+    }
 
     .show-mobile-link-holder {
         transform: translateX(0);
@@ -150,7 +152,7 @@
         -moz-transform: translateX(0);
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
-}
+    }
 
     .mobile-link-holder ul {
         list-style: none;
@@ -175,4 +177,30 @@
         background: var(--white-color);
         color: var(--main-color);
     }
+
+    /* second-section starts here-  */
+    .aboutus-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutus-container {
+        margin: 0 auto;
+        padding: 20px 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .aboutus-image-holder {
+        width: 48%;
+        min-width: 95%;
+    }
+
+    .aboutus-text-holder {
+        min-width: 100%;
+        margin: 20px 0;
+    }
+    /* second-section starts here-  */
 }
