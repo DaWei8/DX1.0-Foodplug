@@ -19,6 +19,9 @@
 /* Header section starts here  */
 
 /* header {} */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'lato', sans-serif;
@@ -328,6 +331,127 @@ button {
     font-size: px;
 } */
 /* second section stops here  */
+
+/* explore foods section starts here  */
+
+.explore-foods {
+    /* height: 450px; */
+    width: 90%;
+    margin: 30px auto;
+    border-bottom: 100px solid var(--main-color);
+    /* text-align: center; */
+}
+.explore-foods-container {
+    /* height: 350px; */
+    width: 100%;
+    /* border: 3px solid; */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.explore-foods-card {
+    background: rgba(195, 226, 236, 0.1);
+    border-radius: 25px;
+    display: inline;
+    width: 30%;
+    min-width: 300px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.explore-foods h2 {
+    text-align: center;
+    color: var(--main-color);
+}
+
+.explore-foods-p {
+    text-align: center;
+    padding: 0 20px;
+    margin: 15px;
+}
+
+.explore-foods-card-text-holder {
+    text-align: left;
+}
+
+.explore-foods-card-image-holder {
+    height: 250px;
+    width: 100%;
+}
+
+.explore-foods-card-image-holder img {
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 25px 25px 0 0;
+    -moz-border-radius: 25px 25px 0 0;
+    -ms-border-radius: 25px 25px 0 0;
+    -o-border-radius: 25px 25px 0 0;
+}
+
+.food-card-title {
+    display: block;
+    font-weight: bold;
+}
+
+.food-card-time {
+    display: block;
+    margin: 20px 0;
+}
+
+.food-card-price {
+    margin: 10px 0;
+    border-bottom: 0.7px solid var(--light-grey-color);
+    padding-bottom: 5px;
+
+}
+.food-card-price span {
+    text-decoration: line-through;
+    color: var(--light-grey-color);
+}
+
+.faq {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-items-title {
+    margin: 10px 0;
+    display: block;
+    color: var(--main-color-dark);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.faq-items-title i {
+    margin-right: 20px;
+    color: var(--main-color);
+}
+.faq-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.faq-items {
+    padding: 20px 0;
+    width: 48%;
+}
+/* explore foods section stops here */
 
 /* footer section starts here */
 /* 

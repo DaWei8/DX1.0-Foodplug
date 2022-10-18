@@ -203,4 +203,17 @@
         margin: 20px 0;
     }
     /* second-section starts here-  */
+
+
+    .explore-foods-card {
+        display: inline;
+        width: 32%;
+        min-width: 300px;
+        margin: 20px 0;
+    }
+
+    .faq-items {
+        padding: 20px 0;
+        width: 100%;
+    }
 }
