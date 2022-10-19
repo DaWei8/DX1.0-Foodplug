@@ -278,6 +278,7 @@ button {
 }
 
 .aboutus-text-holder p {
+    font-size: 16px;
     margin: 20px 0;
 }
 
@@ -372,6 +373,7 @@ button {
 }
 
 .explore-foods-p {
+    font-size: 16px;
     text-align: center;
     padding: 0 20px;
     margin: 15px;
@@ -547,7 +549,7 @@ button {
 
 footer {
     width: 100%;
-    min-width: 100vw;
+    min-width: 100%;
     background: var(--main-color);
     display: flex;
     align-items: center;
