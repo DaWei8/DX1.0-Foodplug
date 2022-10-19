@@ -245,4 +245,10 @@
         flex-direction: column;
         text-align: center;
     }
+
+    footer .copyright-text {
+        line-height: 1.5;
+        width: 300px;
+        padding-inline: 10px;
+    }
 }
