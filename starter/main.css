@@ -548,6 +548,7 @@ button {
 /* footer section starts here */
 
 footer {
+    padding: 0 30px;
     width: 100%;
     min-width: 100%;
     background: var(--main-color);
@@ -558,9 +559,11 @@ footer {
     padding: 20px 0;
 }
 
+footer .copyright-text {
+    padding-inline: 10px;
+}
 .footer-icons ul {
     padding: 30px 0;
-    
     list-style: none;
     display: flex;
     justify-content: space-between;
