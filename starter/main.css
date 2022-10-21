@@ -168,6 +168,7 @@ button {
     padding-bottom: 30px;
     min-height: 450px;
     background: url('./img/banner.jpg');
+    background-position: center right;
     background-size: cover;
 }
 

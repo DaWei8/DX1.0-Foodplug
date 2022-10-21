@@ -177,6 +177,11 @@
         background: var(--white-color);
         color: var(--main-color);
     }
+    .header-text-content button {
+        font-size: 12px;
+        margin-right: 5px;
+        max-width: 160px;
+    }
 
     /* second-section starts here-  */
     .aboutus-section {
