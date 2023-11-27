@@ -1,4 +1,4 @@
-![Project Overview](ProjectOverview.png)
+
 
 # DX1.0-Foodplug
 
